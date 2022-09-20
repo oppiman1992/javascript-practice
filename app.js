@@ -2,11 +2,11 @@ let num=0;
 for (let i = 0; i < 51; i++) {
   console.log(i);
 
-if (i % 10 == 0) {
+if ((i % 10 == 0) && (i>0) ){
   console.log('今' + i + '回ループしました。');
 }
 
-if (i % 4 == 0 ){
+if ((i % 4 == 0 )&& (i>0) ){
 	console.log('4で割れる数です。'+i );
 }
 
